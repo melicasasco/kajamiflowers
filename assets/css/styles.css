@@ -117,8 +117,12 @@ img{
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: #fff;
+  background-color: #F7F6E1;
   box-shadow: 0 1px 4px rgba(146,161,176,.15);
+}
+
+.l-main{
+  background-color: #F7F6E1;
 }
 
 /*===== NAV =====*/
@@ -224,8 +228,8 @@ img{
 .button{
   display: flex;
   justify-content: center;
-  background-color: #F7F6E1;
-  color: #52BA17;
+  background-color: var(--first-color);
+  color: #F7F6E1;
   padding: .75rem 2.5rem;
   font-weight: var(--font-semi);
 }
@@ -283,26 +287,33 @@ img{
 
 /* ===== FOOTER =====*/
 .footer{
-  background-color: #371741;
-  color: #fff;
+  background-color: white;
+  color: #000;
   text-align: center;
   padding: 2rem 0;
 }
-.footer__title{
-  font-size: 2rem;
-  margin-bottom: var(--mb-4);
-}
+
+
+
 .footer__social{
   margin-bottom: var(--mb-4);
 }
 .footer__icon{
-  font-size: 1.5rem;
-  color: #fff;
+  font-size: 2.5rem;
+  color: var(--first-color);
   margin: 0 var(--mb-2)
 }
 
 .ft-titulo{
-  margin-bottom: 5px;
+  margin-bottom: 1.5rem;
+}
+
+.ft1{
+  text-align: left;
+}
+
+.ft1 > i{
+  color: var(--first-color);
 }
 
 .ftcont{
