@@ -242,12 +242,13 @@ img{
   display: flex;
   justify-content: center;
   background-color: var(--first-color);
-  color: #F7F6E1;
+  color: white;
   padding: .75rem 2.5rem;
   font-weight: var(--font-semi);
 }
 .button:hover{
   box-shadow: 0 10px 36px rgba(0,0,0,.15);
+  color: #371741;
 }
 
 /* ===== quienesSomos =====*/
@@ -274,6 +275,7 @@ img{
 }
 .work__img{
   box-shadow: 0 4px 25px rgba(14,36,49,.15);
+  background-color: white;
   border-radius: .5rem;
   overflow: hidden;
 }
@@ -299,7 +301,7 @@ img{
 }
 
 /* ===== FOOTER =====*/
-.footer{
+.footer-container{
   background-color: white;
   color: #000;
   text-align: center;
