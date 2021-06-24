@@ -191,8 +191,7 @@ img{
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: var(--first-color);
-}
+ }
 
 /*=== Show menu ===*/
 .show{
@@ -439,5 +438,8 @@ width: 200px;
   
   .nav__logo {
     height: 2rem;
+  }
+  .home {
+    height: 10rem;
   }
 }
