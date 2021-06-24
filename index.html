@@ -3,12 +3,12 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+        <!--===== Bootstrap =====-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <!--===== CSS =====-->
         <link rel="stylesheet" href="assets/css/styles.css">
-    
         <!-- =====BOX ICONS iconitos redes===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-
         <title>Kajami Flowers</title>
     </head>
     <body>
@@ -17,16 +17,15 @@
             <nav class="nav bd-grid">
                 <div>
                     <a href="#">
-                        <img   class="nav__logo"src="assets/img/logoKajami.png" >
+                        <img   class="nav__logo"src="assets/img/logoKajami2.png" >
                     </a>
                 </div>
-
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#quienesSomos" class="nav__link">Quiénes somos</a></li>
-                        <li class="nav__item"><a href="#arreglosFlorales" class="nav__link">Arreglos florales</a></li>
-                        <li class="nav__item"><a href="#servicios" class="nav__link">Servicios</a></li>
+                        <li class="nav__item"><a href="#home" class="nav__link active">Inicio</a></li>
+                        <li class="nav__item"><a href="#quienesSomos" class="nav__link">Nosotros</a></li>
+                        <li class="nav__item"><a href="#arreglosFlorales" class="nav__link">Arreglos</a></li>
+                        <li class="nav__item"><a href="#servicios" class="nav__link">Eventos</a></li>
                         <li class="nav__item"><a href="#contact" class="nav__link">Contacto</a></li>
                     </ul>
                 </div>
@@ -36,43 +35,40 @@
             </nav>
         </header>
         <main class="l-main">
-            <!--===== BANNER =====-->
-           
-            <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
-                <div class="home__data">
-                    <h1 class="home__title"><br>Kajami <span class="home__title-color">Flowers</span><br> </h1>
-                    <!--=====<a href="#" class="button">Contact</a>=====-->
-                </div>
-                <div class="home__data">
-                   <h2 class="home__subtitle">Arreglos florales naturales<br>Detalles personalizados<br>Envíos</h3>
-                </div>
-                <div class="home__social">
-                    <a href="https://www.instagram.com/kajamiflowers/" class="home__social-icon"><i class='bx bxl-instagram'></i></a>
-                    <a href="https://api.whatsapp.com/send?phone=+51955502473" class="home__social-icon"><i class='bx bxl-whatsapp' ></i></a>
-                    <a href="https://www.facebook.com/kjmflowers" class="home__social-icon"><i class='bx bxl-facebook' ></i></a>
-                </div>
-                <div class="home__img">    
-                    <img src="assets/img/300px.png" alt="">
-                </div> 
-            </section>
-
-      
+        <!--===== Carousel Bootstrap =====-->
+        <section class="home bd-grid" id="home">
+            <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="assets/img/banner1.png" alt="First slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="assets/img/banner2.png" alt="Second slide">
+                  </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only"></span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only"></span>
+                </a>
+              </div>
+        </section>    
             <!--===== quienesSomos =====-->
             <section class="quienesSomos section " id="quienesSomos">
                 <h2 class="section-title">Quiénes somos</h2>
                 <div class="quienesSomos__container bd-grid">
                     <div class="quienesSomos__img">
-                        <img src="assets/img/kajamiTeam.jpg" alt="">
+                        <img class="quienesSomos__img" src="assets/img/kajamiTeam.jpg" alt="">
                     </div>
                     <div>
                         <h2 class="quienesSomos__subtitle">Sobre nosotros</h2>
-                        <p class="quienesSomos__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>           
+                        <p class="quienesSomos__text"><b>Kajami Flowers</b> una florería dedicada a la elaboración de hermosos arreglos florales naturales, seleccionamos las mejores flores tanto nacionales como importadas desde 2017. Venimos ofreciendo detalles inolvidables llevando emociones a través de nuestros arreglos</p>           
                     </div>                                   
                 </div>
             </section>
-
-               <!--===== Destacados =====-->
+            <!--===== Destacados =====-->
             <section class="arreglosFlorales" id="arreglosFlorales">
                 <h2 class="section-title">Productos destacados</h2>
                 <div class="work__container bd-grid">
@@ -176,25 +172,37 @@
             </section>
             <!--===== CONTACT =====-->
             <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
+                <h2 class="section-title">Contacto</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="column text-center">
+                            <p><b>Horario de atención:</b><br>
+                                Lunes: 8:30 hs. a 19:00 hs.<br>
+                                Martes:	8:30 hs. a 19:00hs.<br>
+                                Miércoles: 8:30 hs. a 19:00hs.<br>
+                                Jueves:	8:30 hs. a 19:00hs.<br>
+                                Viernes: 8:30 hs. a 19:00hs. <br>
+                                Sábado:	8:30 hs. a 19:00hs.<br>
+                                Domingo: CERRADO
+                                </p>
+                        </div>
+                    </div>
+                </div>
             </section>
-
         <!--===== FOOTER =====-->
-        <footer class="footer">
+        <footer class="footer-container">
             <div class="ftcont">
             <div class="ft1">
                 <h3 class="ft-titulo">Contacto </h3>
                 <i class='bx bxs-map'></i> San Martín de Porres, Perú <br>
                 <i class='bx bxs-phone'></i> +51 955 502 473 <br>
                 <i class='bx bxs-envelope'></i> kajamiflowers@gmail.com
-                
             </div>
             <div class="ft2">
                 <h3 class="ft-titulo">Síguenos en</h3> 
                 <a href="https://www.facebook.com/kjmflowershttps://www.facebook.com/kjmflowers" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
                 <a href="https://www.instagram.com/kajamiflowers/" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
                 <a href="#" class="footer__icon"><i class='bx bxl-whatsapp' ></i></a>
-                
              </div>
             <div class="ft3">
                 <h3 class="ft-titulo">Newsletter</h3>
@@ -203,16 +211,14 @@
                     <button type="submit">Enviar</button>
                 </form>
             </div>
-
         </div>
-           
         </footer>
-
         <!--===== SCROLL REVEAL =====-->
         <script src="https://unpkg.com/scrollreveal"></script>
-
-        <!--===== MI JS =====-->
-        <script src="assets/js/main.js"></script>
-               
+        <!--===== mi JS =====-->
+        <script src="assets/js/main.js"></script> 
+        <!--===== Bootstrap =====-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+              
     </body>
 </html>
