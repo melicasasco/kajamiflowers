@@ -432,9 +432,21 @@ width: 200px;
     height: 2rem;
   }
   .home {
-    height: 10rem;
+    height: 11rem;
   }
 }
+@media screen and (max-width: 375px){
+  .home {
+    height: 12rem;
+  }
+}
+
+@media screen and (max-width: 425px){
+  .home {
+    height: 14rem;
+  }
+}
+
  
 /*MediaQ cards - Mobile 320px*/
 
@@ -601,8 +613,8 @@ width: 200px;
     .bd-grid-destacados {
       display: grid;
       grid-template-columns: auto auto;
-      justify-content: space-around;
-      grid-column-gap: 10rem;
+      justify-content: center;
+      grid-column-gap: 3rem;
       grid-row-gap: 1rem;
       margin-left: 0.5rem;
       margin-right: 0.5rem;
@@ -642,7 +654,7 @@ width: 200px;
         grid-row-gap: 1rem;
         margin-left: 0.5rem;
         margin-right: 0.5rem;
-        } .work__img-arreglos {
+        } .work__img-arre {
           height: 32rem;
           width: 29rem;
           justify-content: space-between;
