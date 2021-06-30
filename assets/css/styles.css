@@ -28,9 +28,15 @@
   }
 }
 
+.carousel-inner{
+  margin-top: 4rem  ;
+}
+
 .carousel-item {
   overflow: hidden;
-  position: relative; }
+  position: relative;
+height: fit-content !important; 
+}
 
   .item img {
     width: 100%;
