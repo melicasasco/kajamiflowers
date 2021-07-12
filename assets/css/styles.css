@@ -294,9 +294,14 @@ img{
 
 /* ===== FOOTER =====*/
 .kajamiFfooter-container{
-  background-color: white;
+  background-color: white !important;
   color: #000;
   text-align: center;
+  padding: 2rem 0;
+}
+
+.ftcont{
+  background-color: white;
   padding: 2rem 0;
 }
 
@@ -339,6 +344,30 @@ img{
 }
 .logoft{
 width: 200px;
+}
+
+#mc_embed_signup_scroll{
+  display: flex !important;
+  }
+
+  .email{
+    height: max-content;
+    width: 325px;
+    background-color: #F7F6E1;
+    border: 1px solid #AE1D90;
+    border-radius: 20px;
+    padding: 10px;
+    }
+
+.snd-button{
+  margin-left: -36px;
+  background-color: var(--first-color);
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: var(--normal-font-size);
+  font-weight: bold;
+color: white;
 }
 
 /* ===== MEDIA QUERIES=====*/
