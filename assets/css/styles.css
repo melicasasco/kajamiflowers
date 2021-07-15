@@ -259,13 +259,11 @@ img {
   color: #371741;
 }
 
-
 /*carrousel*/
 
-.carouselbtn{
+.carouselbtn {
   cursor: pointer;
 }
-
 
 /* ===== quienesSomos =====*/
 .quienesSomos__container {
@@ -570,7 +568,10 @@ img {
     padding-top: 0.5rem;
   }
   .video-nosotros {
-    width: 18rem;
+    display: flex;
+    justify-content: center;
+    width: 19rem;
+    margin: auto;
   }
 }
 
@@ -580,7 +581,7 @@ img {
     height: 12rem;
   }
   .video-nosotros {
-    width: 22rem;
+    width: 21rem;
   }
   .work__img-arreglos {
     height: 22.9rem;
@@ -662,6 +663,7 @@ img {
     height: auto;
   }
   .video-nosotros {
+    width: 25rem;
     margin-left: auto;
     margin-right: auto;
   }
@@ -705,11 +707,14 @@ img {
     height: 20rem;
   }
   .video-nosotros {
-    width: 30rem;
+    width: 3rem;
   }
   .work__img-arreglos {
     height: 21.7rem;
     width: 15rem;
+  }
+  .video-nosotros {
+    width: 29rem;
   }
 }
 
@@ -719,19 +724,23 @@ img {
     height: 20rem;
   }
   .video-nosotros {
-    width: 30rem;
+    width: 3rem;
   }
   .work__img-arreglos {
     height: 21.4rem;
     width: 15rem;
   }
+  .video-nosotros {
+    width: 30rem;
+  }
 }
+
 @media screen and (min-width: 550px) {
   .home {
     height: 20rem;
   }
   .video-nosotros {
-    width: 34rem;
+    width: 3rem;
   }
   .work__img-arreglos {
     height: 21.7rem;
@@ -763,7 +772,7 @@ img {
     height: 18rem;
   }
   .video-nosotros {
-    width: 43rem;
+    width: 4rem;
     height: auto;
   }
   .work__container-arreglos {
@@ -820,11 +829,7 @@ img {
     padding-top: 1.5rem;
   }
   .video-nosotros {
-    display: flex;
-    justify-content: center;
-    height: 20rem;
-    width: auto;
-    margin-left: 1rem;
+    width: 60rem;
   }
   .quienesSomos__container {
     text-align: justify;
@@ -874,4 +879,18 @@ img {
 
 .melanieHover:hover {
   font-weight: 600;
+}
+
+.firma {
+  background-color: white;
+  font-size: 0.7rem;
+  text-decoration: none !important;
+}
+
+.firma a {
+  color: inherit;
+}
+
+.firma a:visited {
+  color: black;
 }
