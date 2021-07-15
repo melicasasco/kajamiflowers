@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="assets/css/styles.css">
         <!-- =====BOX ICONS iconitos redes===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        
         <title>Kajami Flowers</title>
     </head>
     <body>
@@ -41,7 +42,7 @@
             <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block w-100" src="assets/img/banner1.png" alt="First slide">
+                    <img class="d-block w-100 carouselbtn" src="assets/img/banner1.png" alt="First slide" onClick="parent.open('https://api.whatsapp.com/send?phone=+51955502473')">
                   </div>
                   <div class="carousel-item">
                     <img class="d-block w-100" src="assets/img/banner2.png" alt="Second slide">
@@ -62,27 +63,8 @@
             <!--===== Destacados =====-->
             <section>
                 <h2 class="section-title">Productos destacados</h2>
-                <div class="work__container bd-grid-destacados">
-                    <div class="work__img-destacados">
-                        <img src="assets/img/img2.png" alt="">
-                        <p class="text-center">Gerberas y rosas acompañado de flores de estación en florero</p>
-                        <div><a  href="https://api.whatsapp.com/send?phone=+51955502473" class="button">S/85 soles</a></div>
-                      </div>
-                    <div class="work__img-destacados">
-                        <img src="assets/img/img6.png" alt="">
-                        <p class="text-center">Florero con 18 rosas blancas acompañado con follaje aromático</p>
-                        <div><a href="https://api.whatsapp.com/send?phone=+51955502473" class="button">S/120 soles</a></div>
-                    </div>
-                    <div class="work__img-destacados">
-                        <img src="assets/img/img1.png" alt="">
-                        <p class="text-center">Florero de 10 rosas y lillium más follaje de estación</p>
-                        <div><a href="https://api.whatsapp.com/send?phone=+51955502473" class="button">S/150 soles</a></div>
-                    </div>
-                    <div class="work__img-destacados">
-                        <img src="assets/img/img7.png" height="50px" alt="">
-                        <p class="text-center">Arreglo de rosas + follaje de estación + variedad de flores</p>
-                        <div><a href="https://api.whatsapp.com/send?phone=+51955502473" class="button">S/60 soles</a></div>
-                    </div>
+                <div class="work__container bd-grid-destacados" id="contenedorDestacados">
+                    
                 </div>
             </section>
             <!--===== quienesSomos =====-->
@@ -115,91 +97,8 @@
             <!--===== Tipos de flores =====-->
             <section >
                 <h2 id="arreglos" class="section-title">Arreglos Florales</h2>
-                    <div class="work__container-arreglos bd-grid-arreglos">
-                        <div>
-                             <div class="work__img-arreglos">
-                                <img src="assets/img/img2.png" height="50px" alt="">
-                                <p class="text-center">Gerberas y rosas acompañado de flores de estación en florero</p>
-                                <div><a href="https://api.whatsapp.com/send?phone=+51955502473" class="button">S/89 soles</a></div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="work__img-arreglos">
-                                <img src="assets/img/img1.png" alt="">
-                                <p class="text-center">Florero de diez rosas y lillium más un follaje de estación</p>
-                                <div><a href="https://api.whatsapp.com/send?phone=+51955502473" class="button">S/170 soles</a></div>
-                            </div>
-                         </div>
-                         <div>
-                            <div class="work__img-arreglos">
-                                <img src="assets/img/img8.png" alt="">
-                                <p class="text-center">Gerberas (color a elección) en florero con follaje de estación</p>
-                                <div><a href="https://api.whatsapp.com/send?phone=+51955502473" class="button">S/75 soles</a></div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="work__img-arreglos">
-                                <img src="assets/img/img6.png" alt="">
-                                <p class="text-center">Florero con 18 rosas blancas acompañado con follaje aromático</p>
-                                <div><a href="https://api.whatsapp.com/send?phone=+51955502473" class="button">S/120 soles</a></div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="work__img-arreglos">
-                                <img src="assets/img/img9.png" alt="">
-                                <p class="text-center">Box Premium de rosas con inicial a elección (18 a 22 rosas)</p>
-                                <div><a href="https://api.whatsapp.com/send?phone=+51955502473" class="button">S/170 soles</a></div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="work__img-arreglos">
-                                <img class="p-2" src="assets/img/img10.png" alt="">
-                                <p class="text-center">Box premium de rosas (18 a 22) con inicial a elección</p>
-                                <div><a href="https://api.whatsapp.com/send?phone=+51955502473" class="button">S/170 soles</a></div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="work__img-arreglos">
-                                <img src="assets/img/img11.png" alt="">
-                                <p class="text-center">Jarrón de 10 rosas y astromelias más un follaje de estación</p>
-                                <div><a href="https://api.whatsapp.com/send?phone=+51955502473" class="button">S/98 soles</a></div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="work__img-arreglos">
-                                <img src="assets/img/img12.png" alt="">
-                                <p class="text-center">Caja de rosas: 6 rosas (color a elección) + pétalos + dedicatoria</p>
-                                <div><a href="https://api.whatsapp.com/send?phone=+51955502473" class="button">S/58 soles</a></div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="work__img-arreglos">
-                                <img src="assets/img/img7.png" alt="">
-                                <p class="text-center">Arreglo de rosas + follaje de estación + variedad de flores</p>
-                                <div><a href="https://api.whatsapp.com/send?phone=+51955502473" class="button">S/60 soles</a></div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="work__img-arreglos">
-                                <img src="assets/img/img13.png" alt="">
-                                <p class="text-center">Lillium y rosas. Florero con rosas mas flores de estación </p>
-                                <div><a href="https://api.whatsapp.com/send?phone=+51955502473" class="button">S/85 soles</a></div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="work__img-arreglos">
-                                <img src="assets/img/img3.png" alt="">
-                                <p class="text-center">Gerberas y astromelias dentro dentro de un jarrón </p>
-                                <div><a href="https://api.whatsapp.com/send?phone=+51955502473" class="button">S/89 soles</a></div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="work__img-arreglos">
-                                <img src="assets/img/img14.png" alt="">
-                                <p class="text-center">Ramo de girasoles y flores variadas con follaje de estación.</p>
-                                <div><a href="https://api.whatsapp.com/send?phone=+51955502473" class="button">S/63 soles</a></div>
-                            </div>
-                        </div>
+                    <div class="work__container-arreglos bd-grid-arreglos" id="contenedor">
+                        
                     </div>
             </section>
             <!--===== Fechas especiales =====-->
@@ -211,8 +110,8 @@
                     </div>
                     <div>
                         <h2 class="quienesSomos__subtitle">Arreglos para Bodas</h2>
-                        <p class="quienesSomos__text">Decoración integral de los salones, centros de mesa, arreglos florales, arcos, paredes y ramos de novia
-                            .</p>           
+                        <p class="quienesSomos__text">Cada boda es un evento único y nunca pueden faltar flores. Es por ello que sugerimos concertar una cita para poder mostrarte las propuestas que podemos ofrecerte. Decoración integral de los salones, centros de mesa, arreglos florales, paredes, ramos de novia, etcétera.
+                        </p>           
                     </div>                                   
                 </div>
             </section>
@@ -220,7 +119,8 @@
                 <div class="quienesSomos__container bd-grid">
                     <div>
                         <h2 class="quienesSomos__subtitle">Arreglos personalizados</h2>
-                        <p class="quienesSomos__text">Ofrecemos ramos de rosas, girasoles o tulipanes con frases personalizadas</p>           
+                        <p class="quienesSomos__text">
+                            Dinos que rosa, flor o ramo quieres enviar, en que tonos, tipos de flores y si no las tenemos en el momento, nos aseguramos de que sea lo más parecido posible.</p>           
                     </div>   
                     <div class="quienesSomos__img work__img-personalizados">
                         <img src="assets/img/personalizados2.png" alt="">
@@ -230,7 +130,10 @@
                     </div>
                     <div work__img-personalizados>
                         <h2 class="quienesSomos__subtitle">Arreglos para San Valentín, aniversarios y más</h2>
-                        <p class="quienesSomos__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>           
+                        <p class="quienesSomos__text">
+
+                            Las flores son un detalle perfecto para demostrar lo que sientes por esa persona que puede ser tu pareja, pero también a tu mejor amiga o tu madre y su amor incondicional. 
+                            </p>           
                     </div>                                   
                 </div>
                 </div>
@@ -254,7 +157,7 @@
                 </div>
             </section>
         <!--===== FOOTER =====-->
-        <footer class="kajamiFooter-container">
+        <footer class="kajamiFooter-container" style="background-color: white">
             <div class="ftcont">
             <div class="ft1">
                 <h3 class="ft-titulo text-center">Contacto </h3>
@@ -264,9 +167,10 @@
             </div>
             <div class="ft2">
                 <h3 class="ft-titulo text-center">Síguenos en</h3> 
-                <a href="https://www.facebook.com/kjmflowers" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
-                <a href="https://www.instagram.com/kajamiflowers/" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                <a href="https://api.whatsapp.com/send?phone=+51955502473" class="footer__icon"><i class='bx bxl-whatsapp' ></i></a>
+                <a href="https://www.facebook.com/kjmflowers" class="footer__icon"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/kajamiflowers/" class="footer__icon"><i class="fab fa-instagram"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=+51955502473" class="footer__icon"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.tiktok.com/@kajamiflowers" class="footer__icon"><i class="fab fa-tiktok"></i></a>
              </div>
             <div class="ft3">
                 <h3 class="ft-titulo text-center">Newsletter</h3>
@@ -286,15 +190,22 @@
             </div>
         </div>
         <div class="container d-flex justify-content-center">
-            <div class="row p-2">
+            <div class="row p-2" >
                 <p><i class='bx bxs-pencil'></i><span class="juanHover">Juan Albertsen </span>|<span class="melanieHover"> Melanie Casasco</span></p>
             </div>
         </div>
         </footer>
+
+        <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/67e353b8b5f59033a33d6f094/d75f4f9dcf4ec817ddea86a7d.js");</script>
         <!--===== SCROLL REVEAL =====-->
         <script src="https://unpkg.com/scrollreveal"></script>
+        <!--===== Jquery =====-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <!--===== mi JS =====-->
+        <script src="assets/js/productos.js"></script>
         <script src="assets/js/main.js"></script> 
+        <script src="https://kit.fontawesome.com/21d12332aa.js" crossorigin="anonymous"></script>
+
         <!--===== Bootstrap =====-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
               

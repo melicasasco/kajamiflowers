@@ -259,6 +259,14 @@ img {
   color: #371741;
 }
 
+
+/*carrousel*/
+
+.carouselbtn{
+  cursor: pointer;
+}
+
+
 /* ===== quienesSomos =====*/
 .quienesSomos__container {
   row-gap: 2rem;
@@ -357,8 +365,8 @@ img {
 }
 
 .email {
-  height: max-content;
-  width: 325px;
+  height: 30px;
+  width: 225px;
   background-color: #f7f6e1;
   border: 1px solid #ae1d90;
   border-radius: 20px;
@@ -366,11 +374,11 @@ img {
 }
 
 .snd-button {
-  margin-left: -36px;
+  height: 30px;
+  margin-left: -25px;
   background-color: var(--first-color);
   border: none;
   border-radius: 20px;
-  padding: 10px;
   font-size: var(--normal-font-size);
   font-weight: bold;
   color: white;

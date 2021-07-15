@@ -1,0 +1,184 @@
+[
+  {
+     "ID":1,
+     "Descripccion":"Florero con 18 rosas blancas acompañado con follaje aromático",
+     "Precio":120,
+     "Destacado":"false",
+     "Img":"assets/img/imgProd/1.png"
+  },
+  {
+     "ID":2,
+     "Descripccion":"Florero de 10 rosas blancas y lillium mas follaje de estación",
+     "Precio":150,
+     "Destacado":"true",
+     "Img":"assets/img/imgProd/2.png"
+  },
+  {
+     "ID":3,
+     "Descripccion":"Gerberas (color a elección) en florero con follaje de estación",
+     "Precio":75,
+     "Destacado":"true",
+     "Img":"assets/img/imgProd/3.png"
+  },
+  {
+     "ID":4,
+     "Descripccion":"Box Premium de rosas con Inicial a elección (18 a 22 rosas)",
+     "Precio":170,
+     "Destacado":"true",
+     "Img":"assets/img/imgProd/4.png"
+  },
+  {
+     "ID":5,
+     "Descripccion":"6 rosas + pétalos de rosa + dedicatoria impresa",
+     "Precio":58,
+     "Destacado":"false",
+     "Img":"assets/img/imgProd/5.png"
+  },
+  {
+     "ID":6,
+     "Descripccion":"Arreglo de rosas + follaje de estación + variedad de flores",
+     "Precio":60,
+     "Destacado":"false",
+     "Img":"assets/img/imgProd/6.png"
+  },
+  {
+     "ID":7,
+     "Descripccion":"Lillium y rosas Florero con rosas mas flores de estación",
+     "Precio":98,
+     "Destacado":"false",
+     "Img":"assets/img/imgProd/7.png"
+  },
+  {
+     "ID":8,
+     "Descripccion":"Jarrón de 10 rosas y astromelias mas follaje de estación",
+     "Precio":98,
+     "Destacado":"false",
+     "Img":"assets/img/imgProd/8.png"
+  },
+  {
+     "ID":9,
+     "Descripccion":"Gerberas y Rosas acompañado de flores de estación en florero.",
+     "Precio":85,
+     "Destacado":"false",
+     "Img":"assets/img/imgProd/9.png"
+  },
+  {
+     "ID":10,
+     "Descripccion":"24 rosas rojas <br><br><br>",
+     "Precio":"consultar",
+     "Destacado":"false",
+     "Img":"assets/img/imgProd/10.png"
+  },
+  {
+     "ID":11,
+     "Descripccion":"Gerberas y astromelias en jarrón<br><br>",
+     "Precio":89,
+     "Destacado":"false",
+     "Img":"assets/img/imgProd/11.png"
+  },
+  {
+     "ID":12,
+     "Descripccion":"Ramo de girasoles y flores variadas con follaje de estación.",
+     "Precio":63,
+     "Destacado":"false",
+     "Img":"assets/img/imgProd/12.png"
+  },
+  {
+     "ID":13,
+     "Descripccion":"Caja de Rosas 12 rosas en color entero o colores variados.",
+     "Precio":98,
+     "Destacado":"false",
+     "Img":"assets/img/imgProd/13.png"
+  },
+  {
+     "ID":14,
+     "Descripccion":"Box de rosas. Detalle elaborado con 9 rosas y follaje de estación.",
+     "Precio":98,
+     "Destacado":"false",
+     "Img":"assets/img/imgProd/14.png"
+  },
+  {
+     "ID":15,
+     "Descripccion":"Box Amore. 22-24 rosas rojas + globo metálico y osito + topper",
+     "Precio":175,
+     "Destacado":"false",
+     "Img":"assets/img/imgProd/15.png"
+  },
+  {
+     "ID":16,
+     "Descripccion":"Canasta de rosas. 16 rosas con flores en canasta de mimbre.",
+     "Precio":167,
+     "Destacado":"false",
+     "Img":"assets/img/imgProd/16.png"
+  },
+  {
+     "ID":17,
+     "Descripccion":"10 tulipanes en florero: el color puede variar.<br><br>",
+     "Precio":115,
+     "Destacado":"false",
+     "Img":"assets/img/imgProd/17.png"
+  },
+  {
+     "ID":18,
+     "Descripccion":"Rosas con18 a 22 rosas en elegante box (color puede variar)",
+     "Precio":135,
+     "Destacado":"false",
+     "Img":"assets/img/imgProd/18.png"
+  },
+  {
+     "ID":19,
+     "Descripccion":"Ramo de 3 rosas mas flores variadas.<br><br>",
+     "Precio":29.9,
+     "Destacado":"true",
+     "Img":"assets/img/imgProd/19.png"
+  },
+  {
+     "ID":20,
+     "Descripccion":"Tulipanes de color con flores variadas en cajita con chocolates.",
+     "Precio":115,
+     "Destacado":"false",
+     "Img":"assets/img/imgProd/20.png"
+  },
+  {
+     "ID":21,
+     "Descripccion":"10 coloridas Gerberas + finos follajes + papel estampado.",
+     "Precio":68,
+     "Destacado":"false",
+     "Img":"assets/img/imgProd/21.png"
+  },
+  {
+     "ID":22,
+     "Descripccion":"Arreglo de tulipanes con rosas y girasol + topper de ocasión.<br>",
+     "Precio":160,
+     "Destacado":"false",
+     "Img":"assets/img/imgProd/22.png"
+  },
+  {
+     "ID":23,
+     "Descripccion":"Arreglo de rosas mas topper cumpleañero (chocolates y globo)",
+     "Precio":90,
+     "Destacado":"false",
+     "Img":"assets/img/imgProd/23.png"
+  },
+  {
+     "ID":24,
+     "Descripccion":"Arreglo rosas y flores de estación + globo metálico + topper",
+     "Precio":85,
+     "Destacado":"false",
+     "Img":"assets/img/imgProd/24.png"
+  },
+  {
+     "ID":25,
+     "Descripccion":"Canasta de hermosas rosas + una osita + globo metálico.",
+     "Precio":150,
+     "Destacado":"false",
+     "Img":"assets/img/imgProd/25.png"
+  },
+  {
+     "ID":26,
+     "Descripccion":"Arreglo de rosas rojas mas flores de estación.<br><br>",
+     "Precio":80,
+     "Destacado":"false",
+     "Img":"assets/img/imgProd/26.png"
+  }
+]
